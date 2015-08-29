@@ -5,11 +5,11 @@
 # such as matrix inversion.
 #
 # usage:
-#    p = matrix(data = runif(1000000, 1, 10000000), 1000, 1000)
+#    p <- matrix(data = runif(1000000, 1, 10000000), 1000, 1000)
 #    pm <- makeCacheMatrix(p)
-#    p1 = cacheSolve(pm)   # takes a few seconds the first time
+#    p1 <- cacheSolve(pm)   # takes a few seconds the first time
 #    ...
-#    p2 = cacheSolve(pm)   # later, very fast
+#    p2 <- cacheSolve(pm)   # later, very fast
 
 #==================================================
 # makeCacheMatrix() makes a matrix cacheing object
